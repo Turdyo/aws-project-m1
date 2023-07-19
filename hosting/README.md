@@ -1,4 +1,4 @@
-## Here is the architecture we are trying to make in AWS
+#### Here is the architecture we are trying to make in AWS
 
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/202f879b-92c5-4889-82ca-9e8fecb8e284)
 
