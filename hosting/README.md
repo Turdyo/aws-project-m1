@@ -32,7 +32,9 @@ Then, we can see the result on the internet.
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/e0c5a05d-9862-4540-858e-db6b0f579a12)
 
 We insert the data form the sql dump file into the database using our ec2 instance.  
-![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/439abc44-4764-4465-bd5c-af2ac46f250d)
+![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/439abc44-4764-4465-bd5c-af2ac46f250d)  
+![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/db7c97f6-d23c-4c96-9582-afef6823b134)  
+
 
 We can see that the private/public relation between our ec2 istance and RDS is workling, because we can't log into our database from another computer.  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/386d1acc-83bd-495d-95a4-29da4c901548)
