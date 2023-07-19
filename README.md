@@ -13,6 +13,6 @@ You can find the differents parts of the project separeted into differents folde
 
 ## Authors
 
-- [@Turdyo](https://github.com/Turdyo)
-- [@Faust1-2](https://github.com/Faust1-2)
-- [@Tenkoh](https://github.com/BlanchardNicolas)
+- [Martin Gayet](https://github.com/Turdyo)
+- [Faustin Dewas](https://github.com/Faust1-2)
+- [Nicolas Blanchard](https://github.com/BlanchardNicolas)
