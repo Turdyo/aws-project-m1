@@ -44,31 +44,31 @@
 
 ### IMPORTANT
 
-The corrects answer are indicated with a [x] and are written in **bold**. 
+The corrects answer are indicated with a [x] and are written in **bold**. They are followed by a `(C)` that stands for **Correct**.
 _________________
 1. Which definition Describes a virtual private cloud (VPC)?
 
 - [ ] A virtual private network (VPN) in the AWS Cloud
 - [ ] An extension of an on-premises network into Amazon Web Serices (AWS)
-- [x] **A logically isolated vitural network that you define in the aws Cloud**
+- [x] **A logically isolated vitural network that you define in the aws Cloud** `(C)`
 - [ ] A fully managed service that extends the AWS Cloud to customer premises
 _________________
 2. A company's VPC has the CIDR block `172.16.0.0/21` (2048 addresses). It has two subnets (A and B). Each subnet **must support 100 usable addresses now**, but this number is exptected to **rise to at most 254 soon**. Wich subnet addressing scheme meets the requirement and follows AWS best practices?
 - [ ] *Subnet A*:  172.16.0.0/25 (128 addresses) *Subnet B*: 172.16.0.128/25 (1024 addresses)
 - [ ] *Subnet A*: 172.16.0.0/25 (128 addresses) *Subnet B*: 172.16.0.128/25
-- [x] ***Subnet A*: 172.0.0/23 (512 addresses) *Subnet B*: 172.16.2.0/22 (512 addresses)**
+- [x] ***Subnet A*: 172.0.0/23 (512 addresses) *Subnet B*: 172.16.2.0/22 (512 addresses)** `(C)`
 - [ ] *Subnet A*: 172.16.0.0/22 (1024 addresses) *Subnet B*: 172.16.4.0/22 (128 addresses)
 _________________
 3. Which combination of actions enables direct internet access for IPv4 hosts in a VPC? (Select THREE).
 - [ ] Creating a default route that points to the virtual private gateway
 - [ ] Enabling Domain Name System (DNS) resolution for the VPC
-- [x] **Configuring hosts to have or obtain an internet-routable address**
+- [x] **Configuring hosts to have or obtain an internet-routable address** `(C)`
 - [ ] Configuring the VPC domain name in a Dynamic host Configuration Protocol (DHCP) options set
-- [x] **Creating a route for 0.0.0.0/0 that points to the internet gateway**
-- [x] **Configuring security groups and network access control lists (network ACLs) to permit internet traffic**
+- [x] **Creating a route for 0.0.0.0/0 that points to the internet gateway** `(C)`
+- [x] **Configuring security groups and network access control lists (network ACLs) to permit internet traffic** `(C)`
 _________________
 4.Several EC2 instances launch in a VPC that has internet access. These instances should not be accessible from the internet, but they must be able to download updates from the internet. How should the instances launch?
 - [ ] With Elastic IP addresses, in a subnet with a default route to an internet gateway
 - [ ] With public IP addresses, in a subnet with a default route to an internet gateway
 - [ ] Without public IP addresses, in a subnet with a default route to an internet gateway
-- [x] **Without public IP addresses, in a subnet with a default route to a network address translation (NAT) gateway**
+- [x] **Without public IP addresses, in a subnet with a default route to a network address translation (NAT) gateway** `(C)`
