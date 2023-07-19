@@ -2,9 +2,8 @@
 
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/202f879b-92c5-4889-82ca-9e8fecb8e284)
 
-```
-This architecture allows us to create a secure RDS mariadb dataabse inside a private subnet, so only our website in the same VPC will be able to access our database.
-```
+> This architecture allows us to create a secure RDS mariadb dataabse inside a private subnet, so only our website in the same VPC will be able to access our database.
+
 
 We start by creating a VPC  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/eeb3f137-5e02-4e0e-af4e-a53ac9342aba)
