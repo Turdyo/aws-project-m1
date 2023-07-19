@@ -23,7 +23,7 @@ This architecture allows us to create a secure RDS mariadb dataabse inside a pri
 #### We then create a NAT gateway to manage connections.  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/285effb5-00f3-414f-844d-15dc61debdc3)
 
-> We also edit the routes to target the nat gateway  
+#### We also edit the routes to target the nat gateway  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/82d8c4c3-1a67-446c-9736-83a6c32a458c)
 
 #### Then, we edit the subnet association for the rotue table to detect the private subnet  
