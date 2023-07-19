@@ -35,9 +35,11 @@ We insert the data form the sql dump file into the database using our ec2 instan
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/439abc44-4764-4465-bd5c-af2ac46f250d)  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/db7c97f6-d23c-4c96-9582-afef6823b134)  
 
-
 We can see that the private/public relation between our ec2 istance and RDS is workling, because we can't log into our database from another computer.  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/386d1acc-83bd-495d-95a4-29da4c901548)
+
+Then, we can observe that the data is read from our RDS database  
+![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/071bae5f-f676-41d8-ad97-bae7a461cc4d)
 
 Here is our db using RDS mariadb free tier  
 ![image](https://github.com/Turdyo/aws-project-m1/assets/63463668/50876b02-e4aa-4061-9c16-8191b2bf0137)
