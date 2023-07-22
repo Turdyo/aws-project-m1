@@ -2,6 +2,8 @@
 
 ## IAM
 
+### Part I
+
 1. What actions are allowed for EC2 instances and S3 objects based on this policy? What specific resources are included?
 
 > We can see in the **Action list** that the rules allow some actions on ec2 and s3. The actions are **Running and Terminate Instances in ec2** and **Get and Put objects on the s3**. It specifies that it can only be on ec2 instances located in the **us-east-1** region or on **every s3 bucket named `example-bucket`**.
@@ -40,9 +42,73 @@
 - If the policy included both the statement on the left and the statement in question 2, could you terminate an m3.xlarge instance that existed in the account?
 > If the policy included all the statements, we would be able to terminate an `m3.xlarge` instance, since there is no restriction on this kind of instance.
 
+### Part II
+
+#### IMPORTANT
+
+The corrects answer are indicated with a [x] and are written in **bold**. They are followed by a `(C)` that stands for **Correct**.
+_________________
+
+1. Which statement describes IAM users?
+
+- [ ] IAM users are used to control access to a specific AWS resource.
+- [ ] IAM user names can represent a collection of individuals.
+- [x] **Every IAM user for an account must have a unique name.**  `(C)`
+- [ ] Every IAM user name is unique across AWS accounts.
+_________________
+
+2. How can you grant the same level of permissions to multiple users within an account?
+
+- [x] **Apply an AWS Identity and Access Management (IAM) policy to an IAM group.** `(C)`
+- [ ] Apply an AWS Identity and Access Management (IAM) policy to an IAM role.
+- [ ] Create a resource-based policy.
+- [ ] Create an organization in AWS Organizations
+_________________
+
+3. Which statements describe AWS IAM roles? (Select TWO)
+
+- [ ] They are uniquely associated to an individual.
+- [ ] They can only be used by accounts associated to the person who creates the role.
+- [x] **They can be assumed by individuals, applications or services.** `(C)`
+- [x] **They provide temporary security credentials.** `(C)`
+- [ ] They provide permanent security credentials.
+_________________
+
+4. Which statement describes a resource-based policy?
+
+- [ ] It can be applied to any AWS resource.
+- [ ] It can be an AWS managed policy.
+- [ ] It is attached to a user or group.
+- [x] **It is always an inline policy.** `(C)`
+_________________
+
+5. How does AWS Identity and Access Management (IAM) evaluate a policy?
+
+- [ ] It checks for explicit allow statements before it checks for explicit deny statements.
+- [x] **It checks for explicit deny statements before it checks for explicit allow statements.** `(C)`
+- [ ] If there is no explicit deny statement or explicit allow statement, users will have access by default.
+- [ ] An explicit deny statement does not override an explicit allow statement.
+_________________
+
+6. A team of developers needs access to several services and resources in a virtual private cloud (VPC) for 9 months. How can you use AWS Identity and Access Management (IAM) to enable access for them?
+
+- [ ] Create a IAM user for the developer team and attach the required IAM policies.
+- [ ] Create a IAM user for each developer, and attach the required IAM policies to each IAM user.
+- [x] **Create a IAM user for each developer, put them all in an IAM group, and attach the required IAM policies to the IAM group.** `(C)`
+- [ ] Create a single IAM user for the developer team, place it in an IAM group, and attach the required IAM policies to the IAM group
+_________________
+
+7. How does identity federation increase security for an application that is built in Amazon Web Services (AWS)?
+
+- [x] **Users can use single sign-on (SSO) to access the application through an existing authenticated identity.** `(C)`
+- [ ] The application can synchronize users' user names and passwords in AWS Identity and Access Management (IAM) with their social media accounts.
+- [ ] The browser can establish a trust relationship with the application to bypass the need for multi-factor authentication (MFA).
+- [ ] Users can log into their Identity and Access Management (IAM) accounts to log into on premises systems
+
+
 ## Network
 
-### IMPORTANT
+#### IMPORTANT
 
 The corrects answer are indicated with a [x] and are written in **bold**. They are followed by a `(C)` that stands for **Correct**.
 _________________
